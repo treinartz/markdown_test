@@ -113,3 +113,9 @@ class SpringMass {
 ![image info](https://github.com/treinartz/markdown_test/blob/main/week0/week5-loops.gif)
 
 [link to the program:](https://www.cnn.com/)
+
+### References/assistance
+
+source: Who/what assisted with the program?
+
+date: When was this code retrieved
