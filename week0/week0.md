@@ -1,5 +1,5 @@
-# Here is week 0
-
+# Here is week 0 in markdown 
+[see the markdown cheatsheet:](https://www.markdownguide.org/cheat-sheet/)
 
 you will need these items in each weeks's portfolio: (see the items located next to their numbers below)
 
