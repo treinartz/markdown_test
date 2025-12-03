@@ -11,13 +11,13 @@ you will need these items in each weeks's portfolio: (see the items located next
 6. references for code produced elsewhere
 
 ---
-## 1. Description:
+## 1. Description:  What does the code do?
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
 Why do we use it?
 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
 
-## 2. Reflection:
+## 2. Reflection:  What were challenges and solutions?
 here are the 3 items I learned
 1. First item
 2. Second item
@@ -110,11 +110,11 @@ class SpringMass {
 }
 
 ````
-## 3. The gif
+## 3. The gif created in p5js
 ![image info](https://github.com/treinartz/markdown_test/blob/main/week0/week5-loops.gif)
-## 5. The program
+## 5. Link to the code
 [link to the program:](https://www.cnn.com/)
-## 6. The references
+## 6. The references used for assistance
 ### References/assistance
 
 - source: Who/what assisted with the program?
