@@ -28,4 +28,4 @@ useEffect(() \=\> {
 }, \[weekId\]);
 
 \`\`\`
-
+![ alt text](/snw jpg)
