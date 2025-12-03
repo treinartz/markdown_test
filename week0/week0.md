@@ -113,9 +113,9 @@ class SpringMass {
 ## 3. The gif created in p5js
 ![image info](https://github.com/treinartz/markdown_test/blob/main/week0/week5-loops.gif)
 ## 5. Link to the code
-[link to the program:](https://www.cnn.com/)
+[link to the code:](https://www.cnn.com/)
 ## 6. The references used for assistance
-### References/assistance
+## References/assistance
 
 - source: Who/what assisted with the program?
 - date: When was this code retrieved
