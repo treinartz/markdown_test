@@ -28,4 +28,4 @@ useEffect(() \=\> {
 }, \[weekId\]);
 
 \`\`\`
-![ alt text](/markdown/snw jpg)
+![ alt text](https://github.com/treinartz/markdown_test/blob/main/markdown/snw.jpg)
