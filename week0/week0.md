@@ -2,12 +2,13 @@
 
 
 you will need these items in each weeks's portfolio: (see the items located next to their numbers below)
-1 parpagraph description for what the code does
-2 paragrph reflection on the process including challenges and solutions
-3 a gif of the program
-4 the code that goes with it
-5 and a link to the p5 editor
-6 references for code produced elsewhere
+
+1. parpagraph description for what the code does
+2. paragrph reflection on the process including challenges and solutions
+3. a gif of the program
+4. the code that goes with it
+5. and a link to the p5 editor
+6. references for code produced elsewhere
 
 ---
 ## 1. Description:
