@@ -115,7 +115,5 @@ class SpringMass {
 ## 5. Link to the code
 [link to the code:](https://www.cnn.com/)
 ## 6. The references used for assistance
-## References/assistance
-
 - source: Who/what assisted with the program?
 - date: When was this code retrieved
