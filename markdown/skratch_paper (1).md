@@ -89,4 +89,4 @@ class SpringMass {
 }
 
 ````
-![ alt text](https://github.com/treinartz/markdown_test/blob/main/markdown/week5-loops.gif)
+![ the gif for the code](https://github.com/treinartz/markdown_test/blob/main/markdown/week5-loops.gif)
