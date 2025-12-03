@@ -21,7 +21,7 @@ There are many variations of passages of Lorem Ipsum available, but the majority
 ipsum dolor sit amet...'
 
 
-````
+````javascript
 const data = [
   { month: 'Jan', rainfall: 3.1 },
   { month: 'Feb', rainfall: 2.5 },
