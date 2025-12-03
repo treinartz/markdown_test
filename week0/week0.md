@@ -116,6 +116,5 @@ class SpringMass {
 
 ### References/assistance
 
-source: Who/what assisted with the program?
-
-date: When was this code retrieved
+- source: Who/what assisted with the program?
+- date: When was this code retrieved
