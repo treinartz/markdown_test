@@ -41,7 +41,7 @@ ipsum dolor sit amet...'
 
 ---
 
-## 4.
+## 4. The code
 ````javascript
 const data = [
   { month: 'Jan', rainfall: 3.1 },
@@ -110,11 +110,11 @@ class SpringMass {
 }
 
 ````
-## 3.
+## 3. The gif
 ![image info](https://github.com/treinartz/markdown_test/blob/main/week0/week5-loops.gif)
-## 5. 
+## 5. The program
 [link to the program:](https://www.cnn.com/)
-## 6.
+## 6. The references
 ### References/assistance
 
 - source: Who/what assisted with the program?
