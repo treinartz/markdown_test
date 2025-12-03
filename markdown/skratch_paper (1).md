@@ -93,6 +93,5 @@ class SpringMass {
 
 Check out the [code up there!](https://github.com/treinartz/markdown_test/blob/main/markdown/week5-loops.gif) for more resources.
 
-![alt([Isolated.png](https://github.com/treinartz/markdown_test/blob/main/markdown/week5-loops.gif) "week0")
 
-
+![image info](https://github.com/treinartz/markdown_test/blob/main/markdown/week5-loops.gif)
