@@ -7,6 +7,7 @@ you will need these items in each weeks's portfolio:
 - a gif of the program
 - the code that goes with it
 - and a link to the p5 editor
+- citations for code produced elsewhere
 
 ---
 
