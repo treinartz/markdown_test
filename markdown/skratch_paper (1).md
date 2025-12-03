@@ -102,3 +102,7 @@ Check out the [code up there!](https://github.com/treinartz/markdown_test/blob/m
 here is the link to the code  [title](https://www.example.com)
 
 ![image info](https://github.com/treinartz/markdown_test/blob/main/markdown/week5-loops.gif)
+
+markdown/snw.jpg
+
+![image info](markdown/snw.jpg)
