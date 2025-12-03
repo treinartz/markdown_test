@@ -1,5 +1,16 @@
 # Here is week 1
 
+
+you will need these items in each weeks's portfolio:
+- parpagraph description for what the code does
+- paragrph reflection on the process including challenges and solutions
+- a gif of the program
+- the code that goes with it
+- and a link to the p5 editor
+- citations for code produced elsewhere
+
+---
+
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
 Why do we use it?
@@ -25,6 +36,8 @@ There are many variations of passages of Lorem Ipsum available, but the majority
 	lists
 	Start with 'Lorem
 ipsum dolor sit amet...'
+
+---
 
 
 ````javascript
@@ -95,14 +108,6 @@ class SpringMass {
 }
 
 ````
-[link text](https://github.com/treinartz/markdown_test/blob/main/markdown/week5-loops.gif)
 
-Check out the [code up there!](https://github.com/treinartz/markdown_test/blob/main/markdown/week5-loops.gif) for more resources.
+![image info](https://github.com/treinartz/markdown_test/blob/main/week1/week5-loops.gif)
 
-here is the link to the code  [title](https://www.example.com)
-
-![image info](https://github.com/treinartz/markdown_test/blob/main/markdown/week5-loops.gif)
-
-markdown/snw.jpg
-
-![image info](markdown/snw.jpg)
