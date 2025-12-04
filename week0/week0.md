@@ -13,9 +13,10 @@ you will need these 6 items in each weeks's digital notebook markdown file from 
 ---
 ## 1. Description:  What does the code do?
 Github markdown "Digital Course Notebook" for Weekly Graphics Assignments
-Remember your weekly graphics program does not have to look like anyone else's, 
+
+- Remember your weekly graphics program does not have to look like anyone else's, 
 so,  think out of the box and make it unique by exploring the topic through a program you choose.  
-Coding provides many opportunities to make and learn from mistakes.
+- Coding provides many opportunities to make and learn from mistakes.
 so, learn to embrace your mistakes as an essential and welcome part of the process.
 
 Describe:
