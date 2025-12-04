@@ -40,7 +40,7 @@ In a paragraph,
 - reflection, writing, and evaluation on Google slides/Portfolio is thorough, thoughtful, and detailed with examples to illustrate ideas 
 - relfection/writing clearly indicates efforts that were independent, collaborative, and/or assisted through citation of sources
 - reflection/writing clearly indicates evidence of and aspirations for growing independent problem solving
--= submitted on time 
+- submitted on time 
 
 
 here are the 3 items I learned
