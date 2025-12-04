@@ -11,21 +11,19 @@ you will need these 6 items in each weeks's digital notebook markdown file from 
 6. references for code produced elsewhere
 
 ---
-## 1. Description:  What does the code do?
-Github markdown "Digital Course Notebook" for Weekly Graphics Assignments
+## Github markdown "Digital Course Notebook" for Weekly Graphics Assignments
 
 - Remember your weekly graphics program does not have to look like anyone else's, 
 so,  think out of the box and make it unique by exploring the topic through a program you choose.  
 - Coding provides many opportunities to make and learn from mistakes.
 so, learn to embrace your mistakes as an essential and welcome part of the process.
 
-Describe:
-
-In a paragraph, explain what your program does, and how it works.   What understanding can you carry forward to the next challenge? 
+## 1. Description:  What does the code do?
+In a paragraph, describe/explain what your program does, and how it works.   What understanding can you carry forward to the next challenge? 
 
 
 ## 2. Reflection:  What were challenges and solutions?
-in a paragraph, 
+In a paragraph, 
 - Explain/describe at least two significant challenges you faced, and describe how you solved them including references for or credit given to outside sources and/or assistance.
 - Explain/describe what additional functionality you might consider...think of at least two ideas that could extend what you created.
 - Explain/describe what you might do differently if you were to start over from scratch...and be specific!  Consider writing  it for a student about to embark on the same journey…
