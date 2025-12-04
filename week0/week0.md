@@ -12,12 +12,38 @@ you will need these items in each weeks's portfolio: (see the items located next
 
 ---
 ## 1. Description:  What does the code do?
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Github markdown "Digital Course Notebook" for Weekly Graphics Assignments
+Remember your weekly graphics program does not have to look like anyone else's, 
+so,  think out of the box and make it unique by exploring the topic through a program you choose.  
+Coding provides many opportunities to make and learn from mistakes.
+so, learn to embrace your mistakes as an essential and welcome part of the process.
 
-Why do we use it?
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+Describe:
+
+In a paragraph, explain what your program does, and how it works.   What understanding can you carry forward to the next challenge? 
+
 
 ## 2. Reflection:  What were challenges and solutions?
+in a paragraph, 
+- Explain/describe at least two significant challenges you faced, and describe how you solved them including references for or credit given to outside sources and/or assistance.
+- Explain/describe what additional functionality you might consider...think of at least two ideas that could extend what you created.
+- Explain/describe what you might do differently if you were to start over from scratch...and be specific!  Consider writing  it for a student about to embark on the same journey…
+- Evaluate your independent problem solving progress in a paragraph.
+- For written reflections, it may be easier to write using Google docs or similar word processor.  Then, copy and paste your written responses into your markdown file.
+
+Assignment/end of week rubric
+- did you submit on time
+- did you reflect, describe, and post your gif
+- did you comment on another students work with suggestions for next steps
+- did you participate fully this week
+
+##Rubric
+- reflection, writing, and evaluation on Google slides/Portfolio is thorough, thoughtful, and detailed with examples to illustrate ideas 
+- relfection/writing clearly indicates efforts that were independent, collaborative, and/or assisted through citation of sources
+- reflection/writing clearly indicates evidence of and aspirations for growing independent problem solving
+-= submitted on time 
+
+
 here are the 3 items I learned
 1. First item
 2. Second item
