@@ -1,7 +1,7 @@
 # Here is week 0 in markdown 
 [see the markdown cheatsheet:](https://www.markdownguide.org/cheat-sheet/)
 
-you will need these 6 items in each weeks's digital notebook markdown file from week 1- week 10: (see the items located next to their numbers below)
+You will need these 6 items in each weeks's digital notebook markdown file from week 1- week 10: (see the items located next to their numbers below)
 
 1. parpagraph description for what the code does
 2. paragrph reflection on the process including challenges and solutions
