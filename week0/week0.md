@@ -30,13 +30,13 @@ In a paragraph,
 - Evaluate your independent problem solving progress in a paragraph.
 - For written reflections, it may be easier to write using Google docs or similar word processor.  Then, copy and paste your written responses into your markdown file.
 
-Assignment/end of week rubric
+## Assignment/end of week considerations
 - did you submit on time
 - did you reflect, describe, and post your gif
 - did you comment on another students work with suggestions for next steps
 - did you participate fully this week
 
-##Rubric
+## Rubric
 - reflection, writing, and evaluation on Google slides/Portfolio is thorough, thoughtful, and detailed with examples to illustrate ideas 
 - relfection/writing clearly indicates efforts that were independent, collaborative, and/or assisted through citation of sources
 - reflection/writing clearly indicates evidence of and aspirations for growing independent problem solving
