@@ -30,7 +30,7 @@ In a paragraph,
 - Evaluate your independent problem solving progress in a paragraph.
 - For written reflections, it may be easier to write using Google docs or similar word processor.  Then, copy and paste your written responses into your markdown file.
 
-## Assignment/end of week considerations
+## Assignment/end of week checklist
 - did you submit on time
 - did you reflect, describe, and post your gif
 - did you comment on another students work with suggestions for next steps
