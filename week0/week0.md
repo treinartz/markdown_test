@@ -1,7 +1,7 @@
 # Here is week 0 in markdown 
 [see the markdown cheatsheet:](https://www.markdownguide.org/cheat-sheet/)
 
-You will need these 6 items in each weeks's digital notebook markdown file from week 1- week 10: (see the items located next to their numbers below)
+You will need these 6 items in each weeks's digital notebook markdown file from week 1- week 10: (see the items listed next to their numbers below)
 
 1. parpagraph description for what the code does
 2. paragrph reflection on the process including challenges and solutions
@@ -24,30 +24,29 @@ In a paragraph, describe/explain what your program does, and how it works.   Wha
 
 ## 2. Reflection:  What were challenges and solutions?
 In a paragraph, 
-- Explain/describe at least two significant challenges you faced, and describe how you solved them including references for or credit given to outside sources and/or assistance.
+- Explain/describe at least two significant programming challenges you faced this week and/or with this assignment.  Then describe how you solved them including references for or credit given to outside sources and/or assistance.
 - Explain/describe what additional functionality you might consider...think of at least two ideas that could extend what you created.
 - Explain/describe what you might do differently if you were to start over from scratch...and be specific!  Consider writing  it for a student about to embark on the same journey…
-- Evaluate your independent problem solving progress in a paragraph.
+- Evaluate your independent problem solving process and progress this week in a paragraph.
 - For written reflections, it may be easier to write using Google docs or similar word processor.  Then, copy and paste your written responses into your markdown file.
 
 ## Assignment/end of week checklist
 - did you submit on time
 - did you reflect, describe, and post your gif
 - did you comment on another students work with suggestions for next steps
+- did you practice PRIM(M) (Predict, Run, Investigate, Modify) before Making your own?
 - did you participate fully this week
 
 ## Rubric
-- reflection, writing, and evaluation on Google slides/Portfolio is thorough, thoughtful, and detailed with examples to illustrate ideas 
-- relfection/writing clearly indicates efforts that were independent, collaborative, and/or assisted through citation of sources
-- reflection/writing clearly indicates evidence of and aspirations for growing independent problem solving
+- reflection, writing, and evaluation in Github notebook is thorough, thoughtful, and detailed with examples to illustrate ideas 
+- relfection/writing clearly indicates efforts that were independent, collaborative, and/or assisted through attribution of sources
+- reflection/writing clearly indicates evidence of practice and aspirations for growing independent problem solving
 - submitted on time 
-
 
 here are the 3 items I learned
 1. First item
 2. Second item
 3. Third item
-
 
 ---
 
