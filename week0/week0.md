@@ -34,7 +34,7 @@ In a paragraph,
 - did you submit on time
 - did you reflect, describe, and post your gif
 - did you comment on another students work with suggestions for next steps
-- did you practice PRIM(M) (Predict, Run, Investigate, Modify) before Making your own?
+- did you practice **PRIM(M) (Predict, Run, Investigate, Modify)** before Making your own?
 - did you participate fully this week
 
 ## Rubric
