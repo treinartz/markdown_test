@@ -4,7 +4,7 @@
 You will need these 6 items in each weeks's digital notebook markdown file from week 1- week 10: (see the items listed next to their numbers below)
 
 1. parpagraph description for what the code does
-2. paragrph reflection on the process including challenges and solutions
+2. paragraph reflection on the process including challenges and solutions
 3. a gif of the program
 4. the code that goes with it
 5. and a link to the p5 editor
