@@ -67,114 +67,50 @@ here are the 3 items I learned
 
 ## 4. The code that you wrote about above.
 ````javascript
-var x;        // Will store the x-coordinate of the face center
-var y;        // Will store the y-coordinate of the face center
-var diam;     // Will store the diameter of the main face circle
+var x;       // center x-position of the face
+var y;       // center y-position of the face
+var diam;    // size of the main face circle
 
 function setup() {
-  createCanvas(400, 400); 
-  // Creates a 400×400 drawing area.
-  // p5.js automatically calls draw() 60 times per second.
+  createCanvas(400, 400);
+  angleMode(DEGREES);  // Use degrees for arc angles (easier to read)
 
-  angleMode(DEGREES);
-  // arc() expects angles. By default p5 uses radians.
-  // Switching to degrees makes 0–360 intuitive for beginners.
-
-  x = width / 2;
-  y = height / 2;
-  // Center the face by using the canvas midpoint.
-  // This makes the drawing scalable and easier to modify.
-  
-  diam = 100;
-  // Using one variable for the face size allows all features
-  // (eyes, smile, etc.) to scale proportionally.
+  x = width / 2;       // Place face in the middle horizontally
+  y = height / 2;      // Place face in the middle vertically
+  diam = 100;          // Face diameter
 }
 
 function draw() {
   background(220);
-  // Refresh the screen each frame.
-  // Light gray creates a neutral background that highlights the face.
-
-  // -------------------------------------------------------------
-  // DRAW THE MAIN FACE CIRCLE
-  // -------------------------------------------------------------
-  fill(255, 255, 0); 
-  // Solid yellow makes the emoji recognizable.
-
-  stroke(0); 
-  // Black outline makes the face visually crisp.
-
+  // ---- Main face circle ----
+  fill(255, 255, 0);   // Yellow face color
+  stroke(0);           // Black outline
   strokeWeight(2);
-  // Slightly thicker outlines give a cartoon-like style.
-
   ellipseMode(CENTER);
-  // Makes the ellipse use its center point (more intuitive for faces).
-
   ellipse(x, y, diam, diam);
-  // Draws the main face.
-  // Because we control x, y, and diam independently,
-  // scaling and repositioning the emoji becomes trivial.
 
-  // -------------------------------------------------------------
-  // DRAW THE SMILE 
-  // -------------------------------------------------------------
-  // The smile is drawn using an arc. We use percentages of the face size
-  // so enlarging the face keeps the proportions consistent.
-
-  var startAng = 0.1 * 180;
-  var endAng   = 0.9 * 180;
-  // The smile arc goes from 18° to 162°.
-  // These percentages create a wide, friendly smile.
-  // Multiplying by 180 corresponds to the semicircle direction.
-
-  var smileDiam = 0.6 * diam;
-  // The smile should be smaller than the face.
-  // 0.6 keeps it centered and visually pleasing.
+  // ---- Smile ----
+  var startAng = 0.1 * 180;   // Start of smile arc
+  var endAng   = 0.9 * 180;   // End of smile arc
+  var smileDiam = 0.6 * diam; // Smile size based on face size
 
   noFill();
-  // A smile is just a curved line, so we remove interior fill.
-
   arc(x, y, smileDiam, smileDiam, startAng, endAng);
-  // Because ellipseMode is CENTER, this arc stays centered on the face.
-  // Using equal width and height creates a perfect circular arc.
 
-  // -------------------------------------------------------------
-  // DRAW THE EYES
-  // -------------------------------------------------------------
-  // Again, we use proportional measurements so everything scales cleanly.
-
-  var offset = 0.2 * diam;
-  // Moves the eyes 20% of the face diameter away from the center.
-  // This controls both horizontal and vertical spacing.
-
-  var eyeDiam = 0.1 * diam;
-  // Keeps eye size proportional to overall face size.
+  // ---- Eyes ----
+  var offset = 0.2 * diam;    // Distance from center to eyes
+  var eyeDiam = 0.1 * diam;   // Eye size based on face
 
   fill(0);
-  // Eyes are black, which is standard emoji style.
-
-  ellipse(x - offset, y - offset, eyeDiam, eyeDiam);
-  // Left eye:
-  //  - Shift left by offset
-  //  - Shift upward by offset (eyes sit above midline)
-
-  ellipse(x + offset, y - offset, eyeDiam, eyeDiam);
-  // Right eye, mirrored across the center.
-
-  // Using offsets makes the face adaptable:
-  // Change diam → whole face resizes automatically.
+  ellipse(x - offset, y - offset, eyeDiam, eyeDiam); // Left eye
+  ellipse(x + offset, y - offset, eyeDiam, eyeDiam); // Right eye
 }
-// -------------------------------------------------------------
-// SAVE ARTWORK WHEN "d" KEY IS PRESSED
-// -------------------------------------------------------------
+// Save the drawing when “d” is pressed
 function keyPressed() {
   if (key == "d") {
     save("myArtwork.png");
-    // p5.js captures the current canvas and downloads it.
-    // This is great for a classroom "save your art" moment.
   }
 }
-
 
 ````
 ## 3. The gif created from the code above.
