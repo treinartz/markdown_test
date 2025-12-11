@@ -67,50 +67,79 @@ here are the 3 items I learned
 
 ## 4. The code that you wrote about above.
 ````javascript
-var x;       // center x-position of the face
-var y;       // center y-position of the face
-var diam;    // size of the main face circle
+let x = 0; //global variables
+let y = 0;
+let diam = 0;
 
 function setup() {
   createCanvas(400, 400);
-  angleMode(DEGREES);  // Use degrees for arc angles (easier to read)
-
-  x = width / 2;       // Place face in the middle horizontally
-  y = height / 2;      // Place face in the middle vertically
-  diam = 100;          // Face diameter
+  // Center of the face
+  x = width / 2; //reset varibles to system constants inside setup
+  y = height / 2;
+  // Face diameter tied to canvas size
+  diam = width;
 }
 
 function draw() {
   background(220);
-  // ---- Main face circle ----
-  fill(255, 255, 0);   // Yellow face color
-  stroke(0);           // Black outline
+
+  // --- FACE ---
+  fill(255, 255, 0); // yellow face
+  stroke(0); // black outline
   strokeWeight(2);
   ellipseMode(CENTER);
-  ellipse(x, y, diam, diam);
+  ellipse(x, y, diam, diam); // main face
 
-  // ---- Smile ----
-  var startAng = 0.1 * 180;   // Start of smile arc
-  var endAng   = 0.9 * 180;   // End of smile arc
-  var smileDiam = 0.6 * diam; // Smile size based on face size
-
-  noFill();
+  // --- MOUTH ---
+  let startAng = 0.1 * PI; // start angle of smile
+  let endAng = 0.9 * PI; // end angle of smile
+  let smileDiam = 0.6 * diam; // smile scales with face size
   arc(x, y, smileDiam, smileDiam, startAng, endAng);
 
-  // ---- Eyes ----
-  var offset = 0.2 * diam;    // Distance from center to eyes
-  var eyeDiam = 0.1 * diam;   // Eye size based on face
+  // --- EYE POSITIONS AND SIZE ---
+  let offset = 0.2 * diam; // distance from face center to eye centers
+  let eyeDiam = 0.3 * diam; // eye size relative to face
 
-  fill(0);
-  ellipse(x - offset, y - offset, eyeDiam, eyeDiam); // Left eye
-  ellipse(x + offset, y - offset, eyeDiam, eyeDiam); // Right eye
+  // Draw the white part of the eyes
+  fill(255);
+  ellipse(x - offset, y - offset, eyeDiam, eyeDiam); // left eye
+  ellipse(x + offset, y - offset, eyeDiam, eyeDiam); // right eye
+
+  // --- PUPILS: controlled by mouse, constrained inside the eyes ---
+  let pupilMaxMove = eyeDiam * 0.2;
+  // maximum distance pupil can move from eye center
+  // ensures pupils never go outside the eye
+
+  // map() converts mouseX/Y (0..width / 0..height)
+  // to a small range (-pupilMaxMove..pupilMaxMove)
+  let pupilOffsetX = map(mouseX, 0, width, -pupilMaxMove, pupilMaxMove);
+  let pupilOffsetY = map(mouseY, 0, height, -pupilMaxMove, pupilMaxMove);
+
+  fill(0); // pupil color is black
+
+  // Draw left pupil
+  ellipse(
+    x - offset + pupilOffsetX, // center of eye + offset from mouse
+    y - offset + pupilOffsetY,
+    eyeDiam * 0.4, // pupil smaller than eye
+    eyeDiam * 0.4
+  );
+
+  // Draw right pupil
+  ellipse(
+    x + offset + pupilOffsetX,
+    y - offset + pupilOffsetY,
+    eyeDiam * 0.4,
+    eyeDiam * 0.4
+  );
 }
-// Save the drawing when “d” is pressed
+// Save gif for animated programs when a key is pressed
 function keyPressed() {
-  if (key == "d") {
-    save("myArtwork.png");
+  if (key == "s") {
+    saveGif("myAnimation", 5); // "myAnimation.gif", 5-second duration
   }
 }
+
 
 ````
 ## 3. The gif created from the code above.
