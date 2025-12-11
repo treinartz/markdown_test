@@ -67,71 +67,114 @@ here are the 3 items I learned
 
 ## 4. The code that you wrote about above.
 ````javascript
-const data = [
-  { month: 'Jan', rainfall: 3.1 },
-  { month: 'Feb', rainfall: 2.5 },
-  { month: 'Mar', rainfall: 3.8 },
-  { month: 'Apr', rainfall: 4.2 },
-  { month: 'May', rainfall: 4.8 },
-  { month: 'Jun', rainfall: 5.1 },
-  { month: 'Jul', rainfall: 4.3 },
-  { month: 'Aug', rainfall: 4.6 },
-  { month: 'Sep', rainfall: 4.0 },
-  { month: 'Oct', rainfall: 3.7 },
-  { month: 'Nov', rainfall: 3.9 },
-  { month: 'Dec', rainfall: 3.4 }
-];
-
-let springs = [];
-let originY;
+var x;        // Will store the x-coordinate of the face center
+var y;        // Will store the y-coordinate of the face center
+var diam;     // Will store the diameter of the main face circle
 
 function setup() {
-  createCanvas(800, 400);
-  originY = 80;
-  let spacing = width / data.length;
-  data.forEach((d, i) => {
-    let k = map(d.rainfall, 0, 6, 0.05, 0.2);  // spring constant
-    let m = 1;                                  // mass
-    let amp = map(d.rainfall, 0, 6, 20, 80);
-    springs.push(new SpringMass(i*spacing + spacing/2, originY, k, m, amp));
-  });
+  createCanvas(400, 400); 
+  // Creates a 400×400 drawing area.
+  // p5.js automatically calls draw() 60 times per second.
+
+  angleMode(DEGREES);
+  // arc() expects angles. By default p5 uses radians.
+  // Switching to degrees makes 0–360 intuitive for beginners.
+
+  x = width / 2;
+  y = height / 2;
+  // Center the face by using the canvas midpoint.
+  // This makes the drawing scalable and easier to modify.
+  
+  diam = 100;
+  // Using one variable for the face size allows all features
+  // (eyes, smile, etc.) to scale proportionally.
 }
 
 function draw() {
-  background(240);
-  springs.forEach(s => {
-    s.update();
-    s.display();
-  });
+  background(220);
+  // Refresh the screen each frame.
+  // Light gray creates a neutral background that highlights the face.
+
+  // -------------------------------------------------------------
+  // DRAW THE MAIN FACE CIRCLE
+  // -------------------------------------------------------------
+  fill(255, 255, 0); 
+  // Solid yellow makes the emoji recognizable.
+
+  stroke(0); 
+  // Black outline makes the face visually crisp.
+
+  strokeWeight(2);
+  // Slightly thicker outlines give a cartoon-like style.
+
+  ellipseMode(CENTER);
+  // Makes the ellipse use its center point (more intuitive for faces).
+
+  ellipse(x, y, diam, diam);
+  // Draws the main face.
+  // Because we control x, y, and diam independently,
+  // scaling and repositioning the emoji becomes trivial.
+
+  // -------------------------------------------------------------
+  // DRAW THE SMILE 
+  // -------------------------------------------------------------
+  // The smile is drawn using an arc. We use percentages of the face size
+  // so enlarging the face keeps the proportions consistent.
+
+  var startAng = 0.1 * 180;
+  var endAng   = 0.9 * 180;
+  // The smile arc goes from 18° to 162°.
+  // These percentages create a wide, friendly smile.
+  // Multiplying by 180 corresponds to the semicircle direction.
+
+  var smileDiam = 0.6 * diam;
+  // The smile should be smaller than the face.
+  // 0.6 keeps it centered and visually pleasing.
+
+  noFill();
+  // A smile is just a curved line, so we remove interior fill.
+
+  arc(x, y, smileDiam, smileDiam, startAng, endAng);
+  // Because ellipseMode is CENTER, this arc stays centered on the face.
+  // Using equal width and height creates a perfect circular arc.
+
+  // -------------------------------------------------------------
+  // DRAW THE EYES
+  // -------------------------------------------------------------
+  // Again, we use proportional measurements so everything scales cleanly.
+
+  var offset = 0.2 * diam;
+  // Moves the eyes 20% of the face diameter away from the center.
+  // This controls both horizontal and vertical spacing.
+
+  var eyeDiam = 0.1 * diam;
+  // Keeps eye size proportional to overall face size.
+
+  fill(0);
+  // Eyes are black, which is standard emoji style.
+
+  ellipse(x - offset, y - offset, eyeDiam, eyeDiam);
+  // Left eye:
+  //  - Shift left by offset
+  //  - Shift upward by offset (eyes sit above midline)
+
+  ellipse(x + offset, y - offset, eyeDiam, eyeDiam);
+  // Right eye, mirrored across the center.
+
+  // Using offsets makes the face adaptable:
+  // Change diam → whole face resizes automatically.
+}
+// -------------------------------------------------------------
+// SAVE ARTWORK WHEN "d" KEY IS PRESSED
+// -------------------------------------------------------------
+function keyPressed() {
+  if (key == "d") {
+    save("myArtwork.png");
+    // p5.js captures the current canvas and downloads it.
+    // This is great for a classroom "save your art" moment.
+  }
 }
 
-class SpringMass {
-  constructor(x, y0, k, m, amplitude) {
-    this.pos = createVector(x, y0);
-    this.y0 = y0;
-    this.k = k;
-    this.m = m;
-    this.angle = 0;
-    this.amp = amplitude;
-    this.omega = sqrt(this.k / this.m);
-  }
-  update() {
-    // simple harmonic motion: y = y0 + amp * sin(ωt)
-    this.pos.y = this.y0 + this.amp * sin(this.omega * frameCount * 0.05);
-  }
-  display() {
-    // draw spring
-    stroke(0);
-    line(this.pos.x, this.y0, this.pos.x, this.pos.y);
-    // draw mass
-    fill(200, 50, 50);
-    ellipse(this.pos.x, this.pos.y, 20);
-    noStroke();
-    fill(0);
-    textAlign(CENTER);
-    text(data[springs.indexOf(this)].month, this.pos.x, this.y0 + this.amp + 30);
-  }
-}
 
 ````
 ## 3. The gif created from the code above.
