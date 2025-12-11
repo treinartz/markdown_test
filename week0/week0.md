@@ -3,12 +3,27 @@
 
 You will need these 6 items in each weeks's digital notebook markdown file from week 1- week 10: (see the items listed next to their numbers below)
 
-1. parpagraph description for what the code does
-2. paragraph reflection on the process including challenges and solutions
-3. a gif of the program
-4. the code that goes with it
-5. and a link to the p5 editor
-6. references for code produced elsewhere
+1. Detailed description for what the code does
+2. Thorough and thoughtful reflection on the process including challenges and solutions
+3. an image or animated gif of the program (see the code below)
+4. The commented code that made the program 
+5. A link to the p5 editor with the program
+6. References for code produced elsewhere
+
+```javascript
+// Save PNG when a key is pressed
+function keyPressed() {
+  if (key == "d") {
+    save("myArtwork.png"); // Saves as a PNG file
+  }
+}
+// Save gif for animated programs when a key is pressed
+function keyPressed() {
+  if (key == "s") {
+    saveGif("myAnimation", 5); // "myAnimation.gif", 5-second duration
+  }
+}
+```
 
 ---
 ## Github markdown "Digital Course Notebook" for Weekly Graphics Assignments
