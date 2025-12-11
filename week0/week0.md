@@ -143,7 +143,7 @@ function keyPressed() {
 
 ````
 ## 3. The gif created from the code above.
-![image info](https://github.com/treinartz/markdown_test/blob/main/week0/week5-loops.gif)
+![image info](https://github.com/treinartz/markdown_test/blob/main/week0/myAnimation.gif)
 ## 5. Link to the code
 [link to the code:](https://www.cnn.com/)
 ## 6. The references/attrubutons used for assistance
