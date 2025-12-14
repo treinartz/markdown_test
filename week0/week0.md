@@ -13,13 +13,13 @@ You will need these 6 items in each weeks's digital notebook markdown file from 
 ```javascript
 // Save PNG when a key is pressed
 function keyPressed() {
-  if (key == "d") {
+  if (key === "d") {
     save("myArtwork.png"); // Saves as a PNG file
   }
 }
 // Save gif for animated programs when a key is pressed
 function keyPressed() {
-  if (key == "s") {
+  if (key === "s") {
     saveGif("myAnimation", 5); // "myAnimation.gif", 5-second duration
   }
 }
