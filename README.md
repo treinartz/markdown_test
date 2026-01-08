@@ -6,13 +6,9 @@
 This is JSX, not HTML.
 JSX looks like HTML, but it is actually JavaScript syntax that React converts into function calls.
 
-Conceptually, React turns this into:
+Conceptually, React turns this into:    React.createElement("button", {}, "Did you read it?")
 
-React.createElement("button", {}, "Did you read it?")
-
-This means:
-The button is a React element
-React controls when it appears and updates
+This means:   The button is a React elemen  React controls when it appears and updates
 
 2️⃣ onClick={...} — Event binding
 onClick={...}
