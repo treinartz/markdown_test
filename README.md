@@ -5,7 +5,9 @@
 1️⃣ <button>...</button>
 This is JSX, not HTML.
 JSX looks like HTML, but it is actually JavaScript syntax that React converts into function calls.
+
 Conceptually, React turns this into:
+
 React.createElement("button", {}, "Did you read it?")
 
 This means:
